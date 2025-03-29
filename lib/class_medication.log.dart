@@ -1,11 +1,11 @@
-class MedicationLog {
-  String id;
-  String medicationName;
-  DateTime intakeTime;
-  bool wasTaken;
+class MedicationIntakeLog {
+  final String userId;
+  final String medicationName;
+  final DateTime intakeTime;
+  final bool wasTaken;
 
-  MedicationLog({
-    required this.id,
+  MedicationIntakeLog({
+    required this.userId,
     required this.medicationName,
     required this.intakeTime,
     required this.wasTaken,
